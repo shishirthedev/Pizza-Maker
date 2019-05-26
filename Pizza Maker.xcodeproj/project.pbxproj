@@ -12,6 +12,8 @@
 		FF4499F522995BD0001739BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4499F322995BD0001739BB /* Main.storyboard */; };
 		FF4499F722995BD1001739BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4499F622995BD1001739BB /* Assets.xcassets */; };
 		FF4499FA22995BD1001739BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4499F822995BD1001739BB /* LaunchScreen.storyboard */; };
+		FF449A0222995BF6001739BB /* Prices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF449A0122995BF6001739BB /* Prices.swift */; };
+		FF449A062299844D001739BB /* SSPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF449A052299844D001739BB /* SSPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FF4499F622995BD1001739BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF4499F922995BD1001739BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF4499FB22995BD1001739BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF449A0122995BF6001739BB /* Prices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prices.swift; sourceTree = "<group>"; };
+		FF449A052299844D001739BB /* SSPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FF4499F622995BD1001739BB /* Assets.xcassets */,
 				FF4499F822995BD1001739BB /* LaunchScreen.storyboard */,
 				FF4499FB22995BD1001739BB /* Info.plist */,
+				FF449A0122995BF6001739BB /* Prices.swift */,
+				FF449A052299844D001739BB /* SSPickerView.swift */,
 			);
 			path = "Pizza Maker";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF449A062299844D001739BB /* SSPickerView.swift in Sources */,
 				FF4499F222995BD0001739BB /* ViewController.swift in Sources */,
 				FF4499F022995BD0001739BB /* AppDelegate.swift in Sources */,
+				FF449A0222995BF6001739BB /* Prices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
